@@ -4,6 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;500;700&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11843,6 +11844,166 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.navigation {
+  background-color: #262626;
+}
+
+.bloc-titre {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  padding: 2rem;
+}
+
+.nom-titre {
+  color: #fff;
+}
+
+.background-image {
+  background-image: url("../asset/fond-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+}
+
+.titre-green {
+  color: #BAFF6B;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar {
+  transition: all 0.6s ease;
+  background-color: #262626;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  background-color: #BAFF6B !important;
+}
+
+.navbar-toggler {
+  background-color: #BAFF6B !important;
+}
+
+.navbar-scrolled {
+  background: rgba(30, 27, 27, 0.403);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+}
+
+.nav-item {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #BAFF6B;
+}
+
+#btnNav {
+  border-color: #BAFF6B;
+  width: 50px;
+  height: 50px;
+}
+
+#background-color {
+  background-color: #262626;
+}
+
+.profil {
+  width: 68%;
+  border-radius: 50%;
+}
+
+.text-accroche-1 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.text-accroche-2 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.text {
+  color: #fff;
+  font-weight: 100;
+  font-size: 22px;
+}
+
+.sous-titre {
+  color: #fff;
+  font-weight: 100;
+}
+
+.list-1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.puce-1 {
+  margin-top: 10px;
+}
+
+.name {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.jauge {
+  width: 740px;
+  height: 40px;
+  margin-bottom: 58px;
+  border-radius: 20px;
+  background: #262626;
+  box-shadow: 16px 16px 27px #1b1b1b, -16px -16px 27px #313131;
+}
+
+.jauge-1 {
+  background-color: #BAFF6B;
+  width: 575px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
