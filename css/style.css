@@ -11868,6 +11868,8 @@ body {
   margin: 0;
   color: #fff;
   padding: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .nom-titre {
@@ -11886,6 +11888,28 @@ body {
 .titre-green {
   color: #BAFF6B;
   font-weight: 400;
+}
+
+.contact {
+  position: absolute;
+  z-index: 2;
+  background-color: #262626;
+  border-radius: 15px;
+  width: 355px;
+}
+
+.img-logo {
+  width: 60%;
+}
+
+.mail {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tel {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .navbar-brand {
@@ -12004,6 +12028,19 @@ body {
 
 .img-fluid {
   max-width: 100%;
+}
+
+.lien {
+  color: #BAFF6B;
+  box-shadow: 16px 16px 27px #1b1b1b, -16px -16px 27px #313131;
+  border-radius: 15px;
+  width: 200px;
+  height: auto;
+  min-height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

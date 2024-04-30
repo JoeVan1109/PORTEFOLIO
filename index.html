@@ -7,50 +7,74 @@
     <title>Porte folio</title>
 </head>
 <body >
-    <div class="background-image">
 
-        <nav class="navbar navbar-top  navbar-expand-lg  mb-5">
-            <div class="container-fluid">
+<div class="background-image">
 
-                <a class="navbar-brand" href="#">VANLERBERGHE Charlie</a>
+    <nav class="navbar navbar-top  navbar-expand-lg  mb-5">
+        <div class="container-fluid">
 
-                <button class="navbar-toggler" id="btnNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">VANLERBERGHE Charlie</a>
+
+            <button class="navbar-toggler" id="btnNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#background-color">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#apropos">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projet">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
     <div class="container">
+
+        <div class="row contact">
+
+            <div class="mail">
+                <div class="col-2 m-2">
+                    <img class="img-logo" src="./asset/gmail.png" alt="gmail">
+                </div>
+
+                <div class="col-10 m-2">
+                    <a href="mailto:charlie.van1109@gmail.com">charlie.van1109@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="tel">
+                <div class="col-2 m-2">
+                    <img class="img-logo" src="./asset/telephone.png" alt="tel">
+                </div>
+
+                <div class="col-10 m-2">
+                    <a href="tel:0625980346">06 25 98 03 46</a>
+                </div>
+            </div>
+        </div>
+
 
         <div class="row">
             <div class="bloc-titre d-flex justify-content-center align-items-center flex-column">
                 <h1 class="titre">Portefolio</h1>
                 <h1 class="titre">Développeur web</h1>
             </div>
-    </div>
+        </div>
 
-    
-
+        
 
     </div>
 
 <div id="background-color">
 
-    <div class="container part-1">
+    <div id="apropos" class="container part-1">
         <div class="row d-flex align-items-md-center">
             <div class="col-6 mt-5 ml-5">
                 <img class="profil " src="./asset/pp.jpg" alt="profil">
@@ -108,16 +132,28 @@
         </div>
     </div>
 
-    <div class="container part-2">
+
+
+    <div id="projet" class="container part-2">
         <div class="row d-flex align-items-md-center">
             <div class="col-12">
                 <h1 class="titre-green">Projets</h1>
             </div>
             <div class="col-12 mt-5 text-center">
-                <h3 class="sous-titre">Card en Javascript et SASS</h3>
+                <h3 class="sous-titre">Card with number</h3>
             </div>
             <div class="col-12 text-center mt-2 ml-5">
-                <img class="img-fluid" src="./asset/Animation.gif" alt="cardjs">
+                <img class="img-fluid" src="./asset/CardJS.gif" alt="cardjs">
+            </div>
+            <div class="col-md-4 mt-5">
+                <ul class="list-1">
+                    <li class="puce-1">Ecoute d'évènement</li>
+                    <li class="puce-1">Changement de style CSS selon le click</li>
+                    <li class="puce-1">Modification du contenu d'une balise HTML via le script</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-2 p-5">
+                <a href="https://carte-js.netlify.app/" class="lien">Lien vers la card</a>
             </div>
         </div>
 
@@ -134,17 +170,78 @@
                     <li class="puce-1">Bouton</li>
                 </ul>
             </div>
-            <div class="col-12 mt-5">
-                <a href="https://parfumecard.netlify.app/">Lien vers la card</a>
+            <div class="col-12 mt-2 p-5">
+                <a href="https://parfumecard.netlify.app/" class="lien">Lien vers la card</a>
             </div>
         </div>
 
+        <div class="row gx-md-4 d-flex align-items-md-center">
+            <div class="col-12 mt-5 text-center">
+                <h3 class="sous-titre">Yellow card</h3>
+            </div>
+            <div class="col-md-8 mt-4 text-center">
+                <img class="img-fluid" src="./asset/yellowcard.JPG" alt="cardyellow">
+            </div>
+            <div class="col-md-4 mt-5">
+                <ul class="list-1">
+                    <li class="puce-1">Box-Shadow</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-2 p-5">
+                <a href="https://yellowcardcv.netlify.app/" class="lien">Lien vers la card</a>
+            </div>
+        </div>
 
+        <div class="row col-12 d-flex align-items-md-center">
+            <div class="col-12 mt-5 text-center">
+                <h3 class="sous-titre">Pink Form</h3>
+            </div>
+            <div class="col-12">
+                <img class="img-fluid" src="./asset/formulaire.JPG" alt="formjs">
+            </div>
+            <div class="col-12 mt-5">
+                <h3 class="sous-titre">Formulaire en Javascript</h3>
+            </div>
+            <div class="col-12 mt-5">
+                <ul class="list-1">
+                    <li class="puce-1">Formulaire en HTML</li>
+                    <li class="puce-1">Regex</li>
+                    <li class="puce-1">Ecoute d'évènement</li>
+                    <li class="puce-1">Vérification du remplissage des champs au clique du bouton</li>
+                    <li class="puce-1">Message d'erreur en cas d'erreur sur l'un des champs</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-2 p-5">
+                <a href="https://formjs2.netlify.app/" class="lien">Lien vers le formulaire</a>
+            </div>
+        </div>
+
+        <div class="row col-12 d-flex align-items-md-center">
+            <div class="col-12 mt-5 text-center">
+                <h3 class="sous-titre">Recette de cuisine</h3>
+            </div>
+            <div class="col-12">
+                <img class="img-fluid" src="./asset/Recipe.gif" alt="recipe">
+            </div>
+            <div class="col-12 mt-5">
+                <h3 class="sous-titre">Recette en CSS/h3>
+            </div>
+            <div class="col-12 mt-5">
+                <ul class="list-1">
+                    <li class="puce-1">Respect de la sémantique</li>
+                    <li class="puce-1">Mise en page différente selon un principe de bloc</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-2 p-5">
+                <a href="https://omeletrecipe.netlify.app/" class="lien">Lien vers la page</a>
+            </div>
+        </div>
 
     </div>
 </div>
 
-    <script src="script.js"></script>
+    <script src="navbar.js"></script>
+    <script src="contact.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

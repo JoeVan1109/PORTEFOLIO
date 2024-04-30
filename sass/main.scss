@@ -25,6 +25,8 @@ body{
     margin: 0;
     color: #fff;
     padding: 2rem;
+    position: relative;
+    z-index: 1;
 }
 .nom-titre{
     color: $white;
@@ -41,6 +43,27 @@ body{
 .titre-green{
     color: $greenelectric;
     font-weight: 400;
+}
+
+.contact{
+    position: absolute;
+    z-index: 2;
+    background-color: $darkgrey;
+    border-radius: 15px;
+    width: 355px;
+}
+
+.img-logo{
+    width: 60%;
+}
+
+.mail{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tel{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 //! Navigation------------------------------------------------
@@ -171,3 +194,16 @@ body{
 .img-fluid{
     max-width: 100%;
 }
+.lien{
+    color: $greenelectric;
+    box-shadow: 16px 16px 27px #1b1b1b,-16px -16px 27px #313131;
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
