@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
+    background-color: $darkgrey;
 }
 
 .navigation{
@@ -25,8 +26,7 @@ body{
     margin: 0;
     color: #fff;
     padding: 2rem;
-    position: relative;
-    z-index: 1;
+
 }
 .nom-titre{
     color: $white;
@@ -45,16 +45,44 @@ body{
     font-weight: 400;
 }
 
-.contact{
-    position: absolute;
-    z-index: 2;
+//! CONTACT------------------------------------------------------------------
+
+.contact-desktop{
     background-color: $darkgrey;
     border-radius: 15px;
     width: 355px;
+    height: 205px;
+    top: 100px;
+    left: 100px;
 }
 
-.img-logo{
+.contact-desktop{
+    
+}
+
+.lien-contact{
+    color: white;
+    text-decoration: none;
+}
+.lien-contact:active{
+    color: $greenelectric;
+}
+.lien-rs{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.img-contact{
     width: 60%;
+}
+
+.img-github{
+    width: 60%;
+}
+.img-linkedin{
+    width: 57%;
 }
 
 .mail{
@@ -64,6 +92,19 @@ body{
 .tel{
     display: flex;
     flex-wrap: nowrap;
+}
+
+.bouton-icone{
+    box-shadow: 16px 16px 27px #1b1b1b,-16px -16px 27px #313131;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.bouton-icone:active{
+    box-shadow: #1b1b1b 0px 30px 60px -12px inset, #313131 0px 18px 36px -18px inset;
 }
 
 //! Navigation------------------------------------------------
@@ -127,6 +168,8 @@ body{
 #background-color{
     background-color: $darkgrey;
 }
+
+
 
 .profil{
     width: 68%;
