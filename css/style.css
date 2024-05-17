@@ -11892,10 +11892,12 @@ body {
 .contact-desktop {
   background-color: #262626;
   border-radius: 15px;
-  width: 355px;
-  height: 205px;
+  width: 340px;
+  height: 244px;
   top: 100px;
   left: 100px;
+  position: absolute;
+  z-index: 1;
 }
 
 .lien-contact {
@@ -11915,7 +11917,7 @@ body {
 }
 
 .img-contact {
-  width: 60%;
+  width: 40px;
 }
 
 .img-github {
@@ -11929,11 +11931,13 @@ body {
 .mail {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .tel {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .bouton-icone {
