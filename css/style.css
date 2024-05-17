@@ -11953,6 +11953,31 @@ body {
   box-shadow: #1b1b1b 0px 30px 60px -12px inset, #313131 0px 18px 36px -18px inset;
 }
 
+.body-page-contact {
+  background-image: url("../asset/fond-3.jpg");
+}
+
+.contact-page {
+  height: 100vh;
+}
+
+.contact-card {
+  background-color: #262626;
+  border-radius: 15px;
+  width: 360px;
+  height: 360px;
+}
+
+.lien-retour {
+  text-decoration: none;
+  color: #fff;
+  transition: color 500ms;
+}
+
+.lien-retour:hover {
+  color: #BAFF6B;
+}
+
 .navbar-brand {
   color: #fff;
 }
@@ -11994,7 +12019,6 @@ body {
 }
 
 .nav-link:hover {
-  cursor: pointer;
   color: #BAFF6B;
 }
 
@@ -12002,6 +12026,22 @@ body {
   border-color: #BAFF6B;
   width: 50px;
   height: 50px;
+}
+
+#buttonContact {
+  color: #fff !important;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+#buttonContact:hover {
+  cursor: pointer;
+  color: #BAFF6B;
 }
 
 #background-color {
