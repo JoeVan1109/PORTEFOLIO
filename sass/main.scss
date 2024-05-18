@@ -50,12 +50,18 @@ body{
 .contact-desktop{
     background-color: $darkgrey;
     border-radius: 15px;
+    box-shadow: #313131 0px 30px 60px -12px inset, #1b1b1b 0px 18px 36px -18px inset;
     width: 340px;
     height: 244px;
-    top: 100px;
-    left: 100px;
-    position: absolute;
+    margin-top: 100px;
+    margin-left: 290px;
+    position: fixed;
     z-index: 1;
+    visibility: hidden;
+}
+
+.contact-desktop.visible {
+    visibility: visible;
 }
 
 .lien-contact{
@@ -222,6 +228,7 @@ body{
 .text-accroche-1{
     color: $white;
     font-weight: 100;
+    line-height: 40px;
 }
 
 .text-accroche-2{
