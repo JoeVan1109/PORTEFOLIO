@@ -9,3 +9,11 @@ buttonContact.addEventListener('click', () => {
         window.open('./contact-page.html');
     }
 });
+
+buttonContact.addEventListener('click', () => {
+    if (window.innerWidth > 768 && contactCard === ('visible'))  {
+        contactCard.classList.remove('visible');
+    } else {
+
+    }
+});

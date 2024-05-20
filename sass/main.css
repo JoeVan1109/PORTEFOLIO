@@ -12250,4 +12250,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.lien-retour-vers-haut {
+  display: flex;
+  align-items: end;
+  flex-direction: row-reverse;
+  margin-bottom: 15%;
+}
+
+.lien-haut {
+  color: #BAFF6B;
+  box-shadow: 16px 16px 27px #1b1b1b, -16px -16px 27px #313131;
+  border-radius: 15px;
+  width: 305px;
+  height: auto;
+  min-height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
