@@ -1,0 +1,217 @@
+@import "../_components/buttons";
+
+
+//! -------------------------CONTACT-CARD-----------------------------------------------
+
+.contact-desktop{
+    background-color: $light-grey;
+    border-radius: 15px;
+    width: 386px;
+    height: 284px;
+    margin-top: 100px;
+    margin-left: 347px;
+    position: fixed;
+    z-index: 1;
+    visibility: hidden;
+
+    .lien-contact{
+        color: $grey;
+        text-decoration: none;
+        transition-duration: 1s;
+    }
+    .lien-contact:hover{
+        color: $pink !important;
+        font-size: 22px;
+    }
+    .lien-rs{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+    .img-contact{
+        width: 40px;
+    }
+    
+    .img-github{
+        width: 57%;
+    }
+    .img-linkedin{
+        width: 57%;
+    }
+    
+    .mail{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .tel{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .btn {
+        width: 45%;
+        height: 114%;
+        border: none;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        border-radius: 50%;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        background: #D6D6EF;
+        box-shadow:  20px 20px 60px #b6b6cb, -20px -20px 60px #f6f6ff;
+        
+        &:focus, &:focus::after {
+            outline: none;
+        }
+        
+        &:active {
+            transform: translateY(2px);
+        }
+    }
+    
+    
+    .btn-pulse {
+        padding: 15px 7px;
+        background-image: linear-gradient(to right, $light-pink, $blue);
+        z-index: 1;
+        
+            &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            z-index: -1;
+                width: 100%;
+                height: 100%;
+                border: inherit;
+                top: 0;
+                left: 0;
+                background: inherit;
+                border-radius: inherit;
+            transition: all .5s;
+            }
+        
+            &:hover {
+                &::after {
+                    transform: scaleX(1.2) scaleY(1.4);
+                    opacity: 0;
+                }
+            }
+    }
+}
+
+.contact-desktop.visible {
+    visibility: visible;
+}
+
+
+
+
+.body-page-contact{
+    background-image: url(../../asset/banniere.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+}
+
+    .contact-card{
+    background-color: $light-grey;
+    border-radius: 15px;
+    border: none;
+    width: 386px;
+    height: 412px;
+    
+
+    .lien-contact{
+        color: $grey;
+        text-decoration: none;
+        transition-duration: 1s;
+    }
+    .lien-contact:hover{
+        color: $pink !important;
+        font-size: 22px;
+    }
+    .lien-rs{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+    .img-contact{
+        width: 40px;
+    }
+    
+    .img-github{
+        width: 57%;
+    }
+    .img-linkedin{
+        width: 57%;
+    }
+    
+    .mail{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .tel{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .btn {
+        width: 45%;
+        height: 114%;
+        border: none;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        border-radius: 50%;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        background: #D6D6EF;
+        box-shadow:  20px 20px 60px #b6b6cb, -20px -20px 60px #f6f6ff;
+        
+        &:focus, &:focus::after {
+            outline: none;
+        }
+        
+        &:active {
+            transform: translateY(2px);
+        }
+    }
+    
+    
+    .btn-pulse {
+        padding: 15px 7px;
+        background-image: linear-gradient(to right, $light-pink, $blue);
+        z-index: 1;
+        
+            &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            z-index: -1;
+                width: 100%;
+                height: 100%;
+                border: inherit;
+                top: 0;
+                left: 0;
+                background: inherit;
+                border-radius: inherit;
+            transition: all .5s;
+            }
+        
+            &:hover {
+                &::after {
+                    transform: scaleX(1.2) scaleY(1.4);
+                    opacity: 0;
+                }
+            }
+    }
+}
