@@ -116,7 +116,7 @@ body{
     .compet{
         border-bottom: 5px solid $blue;
         border-top: 5px solid $blue;
-
+    }
         .name{
         font-weight: 500 !important;
         color: $grey;
@@ -129,31 +129,14 @@ body{
         max-width: 100px;
         margin-bottom: 30px;
     }
-    }
+    
     
     
     //!CV PROJETS---------------------------------------------------------------------------------------
-
-    .part-2{
-            .titre-projet{
-                font-size: 100%;
-                color: $pink;
-            }
-            .name{
-                font-weight: 500 !important;
-                color: $grey;
-                font-size: 95%;
-                font-weight: 100;
-            }
-            
-            .img-icone {
-                width: 25%;
-                height: auto;
-                max-width: 100px;
-                margin-bottom: 30px;
-            }
+    .titre-projet{
+        font-size: 100%;
+        color: $pink;
     }
-        
 
 
 }
