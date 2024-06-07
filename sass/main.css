@@ -12501,18 +12501,28 @@ body .compet {
 body .compet .name {
   font-weight: 500 !important;
   color: #444440;
-  font-size: 30px;
+  font-size: 95%;
   font-weight: 100;
 }
 body .compet .img-icone {
-  width: 100%;
+  width: 25%;
   height: auto;
   max-width: 100px;
   margin-bottom: 30px;
 }
-body .img-langage {
-  width: 80%;
+body .travaux .sout-titre {
+  font-size: 80%;
+  color: #C25D76;
 }
-body .img-langage-html {
-  width: 67%;
+body .travaux .name {
+  font-weight: 500 !important;
+  color: #444440;
+  font-size: 95%;
+  font-weight: 100;
+}
+body .travaux .img-icone {
+  width: 25%;
+  height: auto;
+  max-width: 100px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

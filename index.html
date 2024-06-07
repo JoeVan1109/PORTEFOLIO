@@ -8,7 +8,7 @@
 </head>
 <body >
 
-<div class="background-image">
+<div class="container-fluid background-image">
 
 
 <!--!------------------------ NAVBAR -------------------------------------------------------------------------------------------------->
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-top  navbar-expand-lg  mb-5">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#">VANLERBERGHE Clarisse</a>
+            <a class="navbar-brand" href="#">VANLERBERGHE Charlie</a>
 
             <button class="navbar-toggler" id="btnNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,39 +40,39 @@
 
 <!--!------------------------ CONTACT CARD -------------------------------------------------------------------------------------------------->
 
-<div class="contact-desktop p-4">
+    <div class="contact-desktop p-4">
 
-    <div class="mail">
-        <div class="ms-4">
-            <img class="img-contact" src="./asset/icone/icone-mail.png" alt="gmail">
+        <div class="mail">
+            <div class="ms-4">
+                <img class="img-contact" src="./asset/icone/icone-mail.png" alt="gmail">
+            </div>
+
+            <div class="ms-2">
+                <a class="lien-contact" href="mailto:charlie.van1109@gmail.com">charlie.van1109@gmail.com</a>
+            </div>
         </div>
 
-        <div class="ms-2">
-            <a class="lien-contact" href="mailto:charlie.van1109@gmail.com">charlie.van1109@gmail.com</a>
+        <div class="tel mt-3">
+            <div class="ms-4">
+                <img class="img-contact" src="./asset/icone/icone-tel.png" alt="tel">
+            </div>
+
+            <div class="ms-2">
+                <a class="lien-contact" href="tel:0625980346">06 25 98 03 46</a>
+            </div>
         </div>
+
+        <div class="lien-rs mt-5">
+            <div class="bouton-icone ">
+                <button class="btn btn-pulse"><a href="https://www.linkedin.com/in/clarisse-vanlerberghe-616171178/"><img class="img-linkedin" src="./asset/icone/icone-linkedin.png" alt="linkedin"></a></button>
+            </div>
+
+            <div class="bouton-icone">
+                <button class="btn btn-pulse"><a href="https://github.com/JoeVan1109"><img class="img-github" src="./asset/icone/icone-github.png" alt="gihub"></a></button>
+            </div>
+        </div>
+
     </div>
-
-    <div class="tel mt-3">
-        <div class="ms-4">
-            <img class="img-contact" src="./asset/icone/icone-tel.png" alt="tel">
-        </div>
-
-        <div class="ms-2">
-            <a class="lien-contact" href="tel:0625980346">06 25 98 03 46</a>
-        </div>
-    </div>
-
-    <div class="lien-rs mt-5">
-        <div class="bouton-icone ">
-            <button class="btn btn-pulse"><a href="https://www.linkedin.com/in/clarisse-vanlerberghe-616171178/"><img class="img-linkedin" src="./asset/icone/icone-linkedin.png" alt="linkedin"></a></button>
-        </div>
-
-        <div class="bouton-icone">
-            <button class="btn btn-pulse"><a href="https://github.com/JoeVan1109"><img class="img-github" src="./asset/icone/icone-github.png" alt="gihub"></a></button>
-        </div>
-    </div>
-
-</div>
 
 <!--!------------------------ PAGE ACCUEIL -------------------------------------------------------------------------------------------------->
 
@@ -132,37 +132,38 @@
 
 <!--!------------------------ COMPETENCES -------------------------------------------------------------------------------------------------->
 
-        <div class="row compet">
+        <div class="row compet d-flex">
+            
             <div class="col-12 mt-5">
                 <h2 class="titre-green mb-5">Compétences</h2>
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
                 <p class="name text-center mt-3">HTML</p>
                 <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
                 <p class="name text-center mt-3">CSS</p>
                 <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
                 <p class="name text-center mt-3">Javascript</p>
                 <img class="img-icone" src="./asset/icone/icone-js.png" alt="icone-js">
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
                 <p class="name text-center mt-3">SASS</p>
                 <img class="img-icone" src="./asset/icone/icone-sass.png" alt="icone-sass">
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
                 <p class="name text-center mt-3">Bootstrap</p>
                 <img class="img-icone" src="./asset/icone/icone-bootstrap.png" alt="icone-bootstrap">
             </div>
 
-            <div class="col-sm-12 col-lg-6 text-center mb-5">
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center mb-5">
                 <p class="name text-center mt-3">Angular</p>
                 <img class="img-icone" src="./asset/icone/icone-angular.png" alt="icone-angular">
             </div>
@@ -177,106 +178,121 @@
     <div id="projet" class="container part-2 mt-5">
 
 
-        <!--?------------------------- PROJET 1 ----------------------------------------------------->
 
-<div class="row gx-xxl-5 col-12 d-flex flex-column">
+<!--?------------------------- PROJET 1 ----------------------------------------------------->
 
-    <div class="col-12 mt-5 mb-4 text-center">
-        <h3 class="sous-titre">Funiro</h3>
-    </div>
-
-    <div class="col-12 w-100 col-xxl-6">
-        <img class="img-fluid" src="./asset/funiro.gif" alt="funiro">
-        
-    </div>
-
-    <div class="col-12 col-xxl-6 mt-5">
-        <h3 class="sous-titre">Site e-commerce Funiro (en cours)</h3>
-
-        <div class="col-9 mt-4 d-flex">
-
-            <img class="img-langage m-3" src="./asset/icone/icone-js.png" alt="icone-js">
-
-            <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-            <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-            <img class="img-langage-html m-3" src="./asset/icone/icone-sass.png" alt="icone-sass">
-
-            <img class="img-langage-html m-3" src="./asset/icone/icone-bootstrap.png" alt="icone-bootstrap">
-
-        </div>
-
-        <ul class="list-1 mt-3">
-            <li class="puce-1">Animation de bouton adaptée à mon projet avec Keyframes</li>
-            <li class="puce-1">Transformation de la navbar au scroll</li>
-            <li class="puce-1">Intervention sur le style via le script</li>
-            <li class="puce-1">Utilisation de composant Bootstrap</li>
-            <li class="puce-1">Stylisation des boutons</li>
-        </ul>
-    </div>
-
-    
-    <div class="wrapper col-12 col-md-3 mt-5 ms-md-5">
-        
-        <a class="cta" href="https://furniro-project.netlify.app/">
-
-            <span>NEXT</span>
-
-            <span>
-                <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                        <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                        <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-                    </g>
-                </svg>
-            </span>
-
-        </a>
-
-    </div>
-
-</div>
-
-<!--?-------------------------------- PROJET 12 -------------------------------------->
-
-        <div class="row gx-md-4 d-flex align-items-md-center">
+        <div class="row projet-1 d-flex align-items-center">
 
             <div class="col-12 mt-5 text-center">
                 <h1 class="titre-green">Projets</h1>
             </div>
+            
+            <div class="col-12 mt-5 mb-4 text-center">
+                <h3 class="sous-titre">Funiro</h3>
+            </div>
+
+            <div class="col-12">
+                <img class="img-funiro w-100" src="./asset/funiro.gif" alt="funiro">
+            </div>
+
+                <div class="col-12 mt-5">
+                    <h3 class="titre-projet text-center">Site e-commerce Funiro (en cours)</h3>
+                </div>
+>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
+            </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">Javascript</p>
+                <img class="img-icone" src="./asset/icone/icone-js.png" alt="icone-js">
+            </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">SASS</p>
+                <img class="img-icone" src="./asset/icone/icone-sass.png" alt="icone-sass">
+            </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">Bootstrap</p>
+                <img class="img-icone" src="./asset/icone/icone-bootstrap.png" alt="icone-bootstrap">
+            </div>
+
+
+            <div class="col-12">
+                <ul class="list-1 mt-3">
+                    <li class="puce-1">Animation de bouton adaptée à mon projet avec Keyframes</li>
+                    <li class="puce-1">Transformation de la navbar au scroll</li>
+                    <li class="puce-1">Intervention sur le style via le script</li>
+                    <li class="puce-1">Utilisation de composant Bootstrap</li>
+                    <li class="puce-1">Stylisation des boutons</li>
+                </ul>
+            </div>
+
+            
+            <div class="wrapper col-12 col-md-3 mt-5 ms-md-5">
+                
+                <a class="cta" href="https://furniro-project.netlify.app/">
+
+                    <span>NEXT</span>
+
+                    <span>
+                        <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                            </g>
+                        </svg>
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+<!--?-------------------------------- PROJET 12 -------------------------------------->
+
+        <div class="row projet-2 gx-md-4 d-flex align-items-md-center">
+
+            
 
             <div class="col-12 mt-5 mb-4 text-center">
                 <h3 class="sous-titre">Card with number</h3>
             </div>
 
-            <div class="col-md-8 mt-4 text-center">
-                <img class="img-fluid" src="./asset/CardJS.gif" alt="cardjs">
+            <div class="col-12">
+                <img class="img-card-whith-number w-100" src="./asset/CardJS.gif" alt="cardjs">
             </div>
 
-            <div class="col-md-4 mt-5">
-
-                <div class="col-12 d-flex">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-js.png" alt="icone-js">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-                    <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-                </div>
-
-                    <ul class="list-1 mt-4">
-                        <li class="puce-1">Ecoute d'évènement</li>
-                        <li class="puce-1">Changement de style CSS selon le click</li>
-                        <li class="puce-1">Modification du contenu d'une balise HTML via le script</li>
-                    </ul>
-
-
-
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
             </div>
 
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">Javascript</p>
+                <img class="img-icone" src="./asset/icone/icone-js.png" alt="icone-js">
+            </div>
+
+            <ul class="list-1 ms-5">
+                <li class="puce-1">Ecoute d'évènement</li>
+                <li class="puce-1">Changement de style CSS selon le click</li>
+                <li class="puce-1">Modification du contenu d'une balise HTML via le script</li>
+            </ul>
 
 
             <div class="wrapper col-12 col-md-3 mt-5 mb-5 ms-md-5">
@@ -301,8 +317,6 @@
                 
             </div>
 
-
-
         </div>
 
 <!--?---------------------- PROJET 3 ----------------------------------------------->
@@ -317,22 +331,21 @@
                 <img class="img-fluid" src="./asset/parfume.JPG" alt="cardparfume">
             </div>
 
-            <div class="col-md-4 mt-5">
-
-                <div class="col-9 d-flex">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-                    <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-                </div>
-
-                <ul class="list-1 mt-4">
-                    <li class="puce-1">Flex-box</li>
-                    <li class="puce-1">Bouton</li>
-                </ul>
-
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
             </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <ul class="list-1 ms-5">
+                <li class="puce-1">Flex-box</li>
+                <li class="puce-1">Bouton</li>
+            </ul>
+
 
 
 
@@ -370,20 +383,19 @@
                 <img class="img-fluid" src="./asset/yellowcard.JPG" alt="cardyellow">
             </div>
 
-            <div class="col-md-4 mt-5">
-
-                <div class="col-9 d-flex">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-                    <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-                </div>
-
-                <ul class="list-1 mt-4">
-                    <li class="puce-1">Box-Shadow</li>
-                </ul>
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
             </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <ul class="list-1 ms-5">
+                <li class="puce-1">Box-Shadow</li>
+            </ul>
 
 
 
@@ -420,34 +432,35 @@
             </div>
 
             <div class="col-12 text-center">
-                <img class="img-fluid " src="./asset/formulaire.JPG" alt="formjs">
+                <img class="img-pink w-100" src="./asset/formulaire.JPG" alt="formjs">
             </div>
             
             <div class="col-12 mt-5 ">
-                <h3 class="sous-titre text-center ps-5 ms-3">Formulaire en Javascript</h3>
+                <h3 class="sous-titre text-center">Formulaire en Javascript</h3>
             </div>
 
-            <div class="col-12 mt-5 d-flex">
-
-                <div class="col-4 mb-4 d-flex">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-js.png" alt="icone-js">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-                    <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-                </div>
-
-                <ul class="list-1 ps-5 ms-5">
-                    <li class="puce-1">Formulaire en HTML</li>
-                    <li class="puce-1">Utilisation des Regex</li>
-                    <li class="puce-1">Ecoute d'évènement</li>
-                    <li class="puce-1">Vérification du remplissage des champs au clique du bouton</li>
-                    <li class="puce-1">Message d'erreur en cas d'erreur sur l'un des champs</li>
-                </ul>
-
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
             </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <div class="col-6 col-md-6 col-xl-4 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">Javascript</p>
+                <img class="img-icone" src="./asset/icone/icone-js.png" alt="icone-js">
+            </div>
+
+            <ul class="list-1 ms-5">
+                <li class="puce-1">Formulaire en HTML</li>
+                <li class="puce-1">Utilisation des Regex</li>
+                <li class="puce-1">Ecoute d'évènement</li>
+                <li class="puce-1">Vérification du remplissage des champs au clique du bouton</li>
+                <li class="puce-1">Message d'erreur en cas d'erreur sur l'un des champs</li>
+            </ul>
 
 
 
@@ -478,34 +491,34 @@
 
 <!--?------------------------- PROJET 6 ----------------------------------------------------->
 
-        <div class="row gx-xxl-5 col-12 d-flex align-items-md-center">
+        <div class="row col-12 d-flex align-items-md-center">
 
             <div class="col-12 mt-5 mb-4 text-center">
                 <h3 class="sous-titre">Recette de cuisine</h3>
             </div>
 
-            <div class="col-12 col-xxl-6">
-                <img class="img-fluid" src="./asset/Recipe.gif" alt="recipe">
+            <div class="col-12 text-center">
+                <img class="img-recette w-100" src="./asset/Recipe.gif" alt="recipe">
             </div>
 
-            <div class="col-12 col-xxl-6 mt-5">
-                <h3 class="sous-titre">Recette en CSS/HTML</h3>
-
-                <div class="col-9 mt-4 d-flex">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-js.png" alt="icone-js">
-
-                    <img class="img-langage m-3" src="./asset/icone/icone-css.png" alt="icone-css">
-
-                    <img class="img-langage-html m-3" src="./asset/icone/icone-html.png" alt="icone-html">
-
-                </div>
-
-                <ul class="list-1 mt-3">
-                    <li class="puce-1">Respect de la sémantique</li>
-                    <li class="puce-1">Mise en page différente selon un principe de bloc</li>
-                </ul>
+            <div class="col-12 mt-5 ">
+                <h3 class="sous-titre text-center">Page en HTML/CSS</h3>
             </div>
+
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">HTML</p>
+                <img class="img-icone" src="./asset/icone/icone-html.png" alt="icone-html">
+            </div>
+
+            <div class="col-6 col-md-6 d-flex flex-column align-items-center">
+                <p class="name text-center mt-3">CSS</p>
+                <img class="img-icone" src="./asset/icone/icone-css.png" alt="icone-css">
+            </div>
+
+            <ul class="list-1 mt-3">
+                <li class="puce-1">Respect de la sémantique</li>
+                <li class="puce-1">Mise en page différente selon un principe de bloc</li>
+            </ul>
 
             
             <div class="wrapper col-12 col-md-3 mt-5 ms-md-5">

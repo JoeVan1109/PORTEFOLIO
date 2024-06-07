@@ -116,11 +116,11 @@ body{
         .name{
         font-weight: 500 !important;
         color: $grey;
-        font-size: 30px;
+        font-size: 95%;
         font-weight: 100;
     }
     .img-icone {
-        width: 100%;
+        width: 25%;
         height: auto;
         max-width: 100px;
         margin-bottom: 30px;
@@ -130,13 +130,26 @@ body{
     
     //!CV PROJETS---------------------------------------------------------------------------------------
 
-    .img-langage{
-        width: 80%;
+    .part-2{
+            .titre-projet{
+                font-size: 100%;
+                color: $pink;
+            }
+            .name{
+                font-weight: 500 !important;
+                color: $grey;
+                font-size: 95%;
+                font-weight: 100;
+            }
+            
+            .img-icone {
+                width: 25%;
+                height: auto;
+                max-width: 100px;
+                margin-bottom: 30px;
+            }
     }
-    .img-langage-html{
-        width: 67%;
-    }
-
+        
 
 
 }
