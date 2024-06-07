@@ -12044,22 +12044,21 @@ textarea.form-control-lg {
   display: flex;
   align-items: end;
   flex-direction: row-reverse;
+  width: 60px;
 }
 .lien-retour-vers-haut .lien-haut {
-  color: #BAFF6B;
   border-radius: 50px;
   background: linear-gradient(145deg, #e3e0dc, #ffffff);
   box-shadow: 20px 20px 60px #d6d4cf, -20px -20px 60px #ffffff;
   border-radius: 15px;
   height: auto;
-  min-height: 50px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .lien-retour-vers-haut .arrow-up {
-  width: 90% !important;
+  width: 70px !important;
 }
 
 .navbar-brand {
@@ -12214,22 +12213,21 @@ textarea.form-control-lg {
   display: flex;
   align-items: end;
   flex-direction: row-reverse;
+  width: 60px;
 }
 .lien-retour-vers-haut .lien-haut {
-  color: #BAFF6B;
   border-radius: 50px;
   background: linear-gradient(145deg, #e3e0dc, #ffffff);
   box-shadow: 20px 20px 60px #d6d4cf, -20px -20px 60px #ffffff;
   border-radius: 15px;
   height: auto;
-  min-height: 50px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .lien-retour-vers-haut .arrow-up {
-  width: 90% !important;
+  width: 70px !important;
 }
 
 .contact-desktop {
@@ -12422,26 +12420,23 @@ body {
   background-color: #fcf9f4;
   margin: 0;
   padding: 0;
-  overflow-y: scroll;
 }
 body .bloc-titre {
   text-align: center;
   background-position: center;
   background-size: cover;
-  width: 100%;
   height: 100vh;
 }
 body .bloc-titre .titre {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
   font-weight: 900;
-  font-size: 300%;
+  font-size: 36px;
   padding: 10px;
 }
 body .bloc-titre .sous-titre {
-  font-size: 200%;
+  font-size: 24px;
   margin-top: 60px;
 }
 body .nom-titre {
@@ -12463,7 +12458,6 @@ body #background-color {
   background-color: #fcf9f4;
 }
 body .intro .profil {
-  width: 68%;
   border-radius: 50%;
 }
 body .intro .text-accroche-1 {
@@ -12486,7 +12480,6 @@ body .intro .text {
 body .intro .sous-titre {
   font-weight: 500 !important;
   color: #444440;
-  font-weight: 100;
 }
 body .intro .list-1 {
   font-weight: 500 !important;
@@ -12504,16 +12497,18 @@ body .compet {
 body .name {
   font-weight: 500 !important;
   color: #444440;
-  font-size: 95%;
-  font-weight: 100;
+  font-size: 22px;
 }
 body .img-icone {
-  width: 25%;
+  width: 80px;
   height: auto;
-  max-width: 100px;
   margin-bottom: 30px;
 }
 body .titre-projet {
-  font-size: 100%;
+  font-size: 22px;
   color: #C25D76;
+}
+body sous-titre {
+  font-weight: 500 !important;
+  color: #444440;
 }/*# sourceMappingURL=main.css.map */
