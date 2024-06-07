@@ -12510,17 +12510,17 @@ body .compet .img-icone {
   max-width: 100px;
   margin-bottom: 30px;
 }
-body .travaux .sout-titre {
-  font-size: 80%;
+body .part-2 .titre-projet {
+  font-size: 100%;
   color: #C25D76;
 }
-body .travaux .name {
+body .part-2 .name {
   font-weight: 500 !important;
   color: #444440;
   font-size: 95%;
   font-weight: 100;
 }
-body .travaux .img-icone {
+body .part-2 .img-icone {
   width: 25%;
   height: auto;
   max-width: 100px;
