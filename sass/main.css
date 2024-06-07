@@ -12420,6 +12420,9 @@ textarea.form-control-lg {
 body {
   font-family: "Roboto Mono", monospace;
   background-color: #fcf9f4;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
 }
 body .bloc-titre {
   text-align: center;
